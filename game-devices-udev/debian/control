@@ -1,0 +1,11 @@
+Source: game-devices-udev
+Section: admin
+Priority: optional
+Maintainer: Clement Lefebvre <clem@linuxmint.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: fabiscafe-devices
+Architecture: all
+Depends: ${misc:Depends}
+Description: udev rules to make supported controllers available with user-grade permissions
